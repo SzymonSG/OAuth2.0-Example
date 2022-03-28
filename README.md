@@ -28,10 +28,14 @@ OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol. It a
 
 **Scopes**- *they are use to specify exatly the reason for which acces to resoreces.*
 
-**Example**: *Like we have login by gmail, after succesful login we are asking by client for conset to use particular: account profile, etc.* 
+**Example**: *Like we have login by gmail, after succesful login we are asking by client for conset to use particular: account profile, etc.*   
+
+
 <img src="images/udzielenie_zgody.PNG">
 
 4. After submittinng consent, we are getting resoureses form resorces-server.
+
+
 
 <img src="images/getResources.PNG">
 
