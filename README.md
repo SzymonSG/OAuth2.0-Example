@@ -14,17 +14,17 @@ OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol. It a
 - **OAuth Authorization-Server** port 9000
 
 ### In overview shorts application work:
-1. Client call the authorization request request to get some resources.
+**1. Client call the authorization request request to get some resources.**
 ```http
   GET /api/users
 ```
-2. Next call the authorization-server. That particular API that has to be autheticated by Cutom Authorization Server wchich handle all authorization API-s. You will be redirect to this URI:
-**/auth-server:9000/login** Where user should passing your crednetials:
+**2. Next call the authorization-server. That particular API that has to be autheticated by Cutom Authorization Server wchich handle all authorization API-s.** You will be redirect to this URI:
+**/auth-server:9000/login** Where user should passing your credentials:
 
 
 <img src="images/3.PNG">
 
-3. After succesfull login. User will have to give the consent to use particular scopes -api.read. Like below:
+**3. After succesfull login. User will have to give the consent to use particular scopes -api.read.** Like below:
 
 **Scopes**- *they are use to specify exatly the reason for which acces to resoreces.*
 
@@ -33,13 +33,12 @@ OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol. It a
 
 <img src="images/udzielenie_zgody.PNG">
 
-4. After submittinng consent, we are getting resoureses form resorces-server.
+**4. After submittinng consent, we are getting resoureses form resorces-server.**
 
 
 <img src="images/getResources.PNG">
 
-
-After all we are getting: **List of Users** 
+ **List of Users** 
 
 
 
