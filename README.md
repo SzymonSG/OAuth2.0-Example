@@ -39,7 +39,7 @@ OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol. It a
 <img src="images/getResources.PNG">
 
 
-**Scopes** mozna potraktować jako uprawnienia do Twojego konta o które prosi client.
+After all we are getting: **List of Users** 
 
 
 
